@@ -1,0 +1,293 @@
+.header {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #E3E3E3;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header .container {
+    position: relative;
+}
+
+.header img {
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.whatsapp {
+    position: absolute;
+    right: 17%;
+    top: 17px;
+    background-color: #8AC912;
+    text-decoration: none;
+    color: white;
+
+    padding: 15px 30px 15px 30px;
+    justify-content: center;
+    text-align: center;
+    flex-shrink: 0;
+    border-radius: 5px;
+    font-family: Inter;
+
+}
+
+.facebook {
+    position: absolute;
+    top: 32px;
+    right: 14%;
+    align-items: center;
+    cursor: pointer;
+}
+
+.call {
+    position: absolute;
+    top: 35px;
+    right: 0px;
+    display: flex;
+}
+
+.call p {
+    font-family: Inter;
+    color: #3D4B56;
+    margin-left: 10px;
+}
+
+.second_header {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 85px;
+    background-color: #ECEAEA;
+}
+
+.second_header .container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.second_header a {
+    margin: 33px 80px;
+    text-decoration: none;
+    color: #2B2323;
+    font-family: Inter;
+    transition: color .3s linear;
+}
+
+.second_header a:hover {
+    color: #66B859;
+}
+
+.glav {
+    padding-top: 1px;
+
+}
+
+.glav .container {
+    position: relative;
+    padding-top: 1px;
+
+}
+
+@media screen and (max-width: 765px) {
+    .second_header {
+        display: none;
+    }
+
+}
+
+.Pro {
+    margin-top: 50px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.glav p {
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.doctors {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.doc:not(:first-child) {
+    margin-left: 45px;
+}
+
+.doc {
+
+    width: 250px;
+    text-align: center;
+}
+
+.doc h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.name-doc {
+    font-size: 20px;
+    color: #5B6F73;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.job {
+    font-size: 23px;
+    color: #359200;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-weight: 6 00;
+}
+
+.service {
+    background: #F1F1F1;
+    padding-top: 1px;
+    margin-top: 170px;
+}
+
+.service .container {
+    padding-top: 1px;
+}
+
+.text-service {
+    padding: 70px 80px 70px 0;
+}
+
+.text-service h1 {
+    color: #5B6F73;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.text-service ul {
+    margin-top: 20px;
+}
+
+.text-service li {
+    list-style-type: disc;
+    margin: 10px 0 0 20px;
+    color: #5B6F73;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.list-service {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-do-end {
+    background-color: #8AC912;
+}
+
+.footer-flex {
+    display: flex;
+}
+
+.footer-info {
+    padding: 30px 292px 40px 40px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 13.016px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer-info-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-info-flex p {
+    margin-top: 20px;
+    line-height: 22px;
+}
+
+.footer-info-flex div:not(:first-child) {
+    margin-left: 80px;
+}
+
+.footer-info-flex div {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.social-media img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.footer-end {
+    background: #404040;
+    height: 48px;
+    width: 100%;
+    margin-top: -3px;
+    padding-top: 1px;
+}
+
+.footer-end .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-end p {
+    margin: 15px 0 15px 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.online {
+    display: flex;
+    z-index: 2000;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    text-decoration: none;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15.875px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-items: center;
+
+    background-color: #8AC912;
+}

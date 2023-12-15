@@ -1,0 +1,60 @@
+.glav-register h1 {
+    text-align: center;
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-top: 80px;
+}
+
+.container {
+    padding-top: 1px;
+}
+
+.form-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-register form input:not(.btn-register) {
+    width: 800px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    padding: 5px;
+
+    color: #686262;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+}
+
+form input:not(:first-child){
+    margin-top: 70px;
+}
+
+.btn-register{
+    margin-top: 20px;
+    background-color: #8AC912;
+    text-decoration: none;
+    color: white;
+
+    padding: 15px 30px 15px 30px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Inter;
+    border: 0;
+}
